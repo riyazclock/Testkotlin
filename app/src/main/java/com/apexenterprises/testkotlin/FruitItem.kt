@@ -12,8 +12,8 @@ import androidx.compose.ui.unit.dp
 fun FruitItem(item: FruitModel) {
     Column(modifier = Modifier.padding(8.dp)) {
         Text(text = item.name, style = MaterialTheme.typography.titleMedium)
-        Text(text = "Banana: ${item.mango}")
-        Text(text = "Kiwi: ${item.apple}")
+        Text(text = "Mango: ${item.mango}")
+        Text(text = "Apple: ${item.apple}")
         Text(text = "Total: ${item.total()}", style = MaterialTheme.typography.bodyLarge)
     }
 }
